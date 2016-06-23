@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">智慧生活</string>
+    <string name="action_settings">Settings</string>   
+    <string name="Server_ip">服务器IP地址:</string>
+    <string name="Acquire_ServerIP">请输入ip地址</string>
+    <string name="Server_Port">端口号:</string>
+    <string name="Acquire_ServerPort">请输入端口号</string>
+    <string name="Connect">连接</string>
+    <string name="Back">退出</string>
+    <string name="OpenLed">开启灯</string>
+    <string name="CloseLed">关闭灯</string>
+    <string name="FeedBackIfno">显示反馈回来的信息</string>
+    <string name="DisConnect">断开连接</string>
+    <string name="ConnectServerAgain">重新连接服务器</string>
+    <string name="MonitorStatus">状态监测</string>
+
+</resources>

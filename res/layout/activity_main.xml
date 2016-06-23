@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_monitor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/FeedBackIfno" >
+    </TextView>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="80dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/line_pic" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_marginTop="100dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_openLed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/OpenLed" />
+
+        <Button
+            android:id="@+id/btn_closeLed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="@string/CloseLed" />
+
+        <Button
+            android:id="@+id/btn_monitor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="@string/MonitorStatus" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_marginTop="180dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_Con_Again"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ConnectServerAgain" />
+
+        <Button
+            android:id="@+id/btn_DisCon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:text="@string/DisConnect" />
+    </LinearLayout>
+
+</LinearLayout>
